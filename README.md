@@ -14,3 +14,5 @@ writeFileSync('storyboard.svg', renderStoryboard(['Wide opening scene', 'Close-u
 ```
 
 Options: `width` and `cardColor`. MIT licensed, no runtime dependencies.
+
+RubyGems source and tests are in [`ruby/`](./ruby/). Install with `gem install sparkmeld_storyboard_svg`.
