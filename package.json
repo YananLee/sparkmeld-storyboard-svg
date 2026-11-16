@@ -1,0 +1,13 @@
+{
+  "name": "sparkmeld-storyboard-svg",
+  "version": "0.1.0",
+  "description": "Render a simple storyboard of image or video prompts as SVG",
+  "type": "module",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["storyboard", "svg", "image-generation", "video-planning"],
+  "homepage": "https://sparkmeld.com/",
+  "repository": { "type": "git", "url": "git+https://github.com/YananLee/sparkmeld-storyboard-svg.git" },
+  "license": "MIT"
+}
