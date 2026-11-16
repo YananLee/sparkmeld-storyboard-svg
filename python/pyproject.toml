@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparkmeld-storyboard-svg"
+version = "0.1.0"
+description = "Generate lightweight SVG graphics for SparkMeld workflows"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "YananLee"}]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Multimedia :: Graphics"]
+
+[project.urls]
+Homepage = "https://sparkmeld.com/"
+Source = "https://github.com/YananLee/sparkmeld-storyboard-svg/tree/main/python"
+
+[tool.setuptools]
+py-modules = ["sparkmeld_storyboard_svg"]
