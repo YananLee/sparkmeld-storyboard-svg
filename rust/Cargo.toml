@@ -1,0 +1,14 @@
+[package]
+name = "sparkmeld-storyboard-svg"
+version = "0.1.0"
+edition = "2021"
+description = "Generate lightweight SVG graphics for SparkMeld workflows"
+license = "MIT"
+homepage = "https://sparkmeld.com/"
+repository = "https://github.com/YananLee/sparkmeld-storyboard-svg"
+readme = "README.md"
+keywords = ["svg", "graphics", "animation"]
+categories = ["graphics", "visualization"]
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE"]
+
+[dependencies]
