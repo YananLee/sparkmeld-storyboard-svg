@@ -23,4 +23,4 @@ Small local SVG utilities are maintained in [`python/`](./python/), [`jsr/`](./j
 
 - JSR: [`@yananlee/sparkmeld-storyboard-svg`](https://jsr.io/@yananlee/sparkmeld-storyboard-svg)
 - Rust: [`sparkmeld-storyboard-svg`](https://crates.io/crates/sparkmeld-storyboard-svg)
-- Python: `sparkmeld-storyboard-svg` source and built distributions are ready in `python/`; PyPI upload is pending an account publishing credential.
+- Python: [`sparkmeld-storyboard-svg`](https://pypi.org/project/sparkmeld-storyboard-svg/0.1.0/) is published; source is in [`python/`](./python/).
