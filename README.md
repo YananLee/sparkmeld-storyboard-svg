@@ -16,3 +16,11 @@ writeFileSync('storyboard.svg', renderStoryboard(['Wide opening scene', 'Close-u
 Options: `width` and `cardColor`. MIT licensed, no runtime dependencies.
 
 RubyGems source and tests are in [`ruby/`](./ruby/). Install with `gem install sparkmeld_storyboard_svg`.
+
+## Additional SVG packages
+
+Small local SVG utilities are maintained in [`python/`](./python/), [`jsr/`](./jsr/), and [`rust/`](./rust/). They do not call the website's export or AI service.
+
+- JSR: [`@yananlee/sparkmeld-storyboard-svg`](https://jsr.io/@yananlee/sparkmeld-storyboard-svg)
+- Rust: [`sparkmeld-storyboard-svg`](https://crates.io/crates/sparkmeld-storyboard-svg)
+- Python: `sparkmeld-storyboard-svg` source and built distributions are ready in `python/`; PyPI upload is pending an account publishing credential.
